@@ -58,10 +58,10 @@ function draw() {
 
 
 function mouseDragged(){
-  Matter.Body.setPosition(stoneObj.body,{x:mouseX,y:mouseY});
+  Matter.Body.setPosition(stone.body,{x:mouseX,y:mouseY});
 }
 function mouseReleased(){
-  slingShot.fly();
+  link.fly();
 }
 
 
