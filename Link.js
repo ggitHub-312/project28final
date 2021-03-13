@@ -4,7 +4,7 @@ class Link{
             bodyA : bodyA,
             pointB : pointB,
             stiffness: 0.001,
-            length: 20,       
+            length: 2       
         }
         this.pointB = pointB;
         this.link = Constraint.create(options);
